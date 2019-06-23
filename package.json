@@ -1,0 +1,29 @@
+{
+  "name": "tim",
+  "version": "1.0.0",
+  "description": "this-is-a-test-package",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koartim/npm-lab-nyc-web-career-042219.git"
+  },
+  "keywords": [
+    "tim"
+  ],
+  "author": "tim-koar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koartim/npm-lab-nyc-web-career-042219/issues"
+  },
+  "homepage": "https://github.com/koartim/npm-lab-nyc-web-career-042219#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
